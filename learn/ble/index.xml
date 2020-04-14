@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BLE  on ZDoc</title>
+    <link>/learn/ble/</link>
+    <description>Recent content in BLE  on ZDoc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/learn/ble/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>What is BLE ?</title>
+        <link>/learn/ble/what-is-ble/</link>
+        <pubDate>Sun, 12 Apr 2020 20:03:00 +0000</pubDate>
+        
+        <guid>/learn/ble/what-is-ble/</guid>
+        <description>BLE refers to Bluetooth Low Energy ( can also be refferd to as Bluetooth Smart or Bluetooth 4.0), it is a low-power wireless technology used for connecting devices with each other and the key term here is low-energy and what this means is that BLE is targeted more towards applications that need to consume less power and they need to run on batteries for longer periods of time (months or even years).</description>
+      </item>
+      
+      <item>
+        <title>BLE Applications</title>
+        <link>/learn/ble/ble-applications/</link>
+        <pubDate>Sun, 12 Apr 2020 20:02:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble-applications/</guid>
+        <description>Some of the most common ones include home automation applications: such as a smart door lock, smart appliance or in your lighting system. Another application would be in fitness devices such as wearables and trackers. One other interesting application is an indoor location technology where GPS may not be feasible, and last but not least medical devices and personal health devices. And now with the recent release of Bluetooth 5 and Bluetooth mesh, BLE has more feasible applications especially when it comes to home automation and industrial applications.</description>
+      </item>
+      
+      <item>
+        <title>BLE range</title>
+        <link>/learn/ble/ble-range/</link>
+        <pubDate>Sun, 12 Apr 2020 20:01:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble-range/</guid>
+        <description>The range typically can go up to 50 meters (150 feet), that&amp;rsquo;s line of sight. whereas when you have obstacles and walls in between the devices, the range can go down significantly, probably to several meters or even several feets.
+However when utilizing the long range feature of the Bluetooth 5, the range can go up pretty significantly even up to 800 meters line of sight. The most common factors that can limit the range are:</description>
+      </item>
+      
+      <item>
+        <title>BLE Speed</title>
+        <link>/learn/ble/ble-speed/</link>
+        <pubDate>Sun, 12 Apr 2020 20:00:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble-speed/</guid>
+        <description>In terms of Speed, there are two important concepts to understand, there’s one called the raw data rate and the other one is the application data rate. The raw data rate is simply the rate at which the radio transmits the data over the air, and it varies depending on the version of the Bluetooth that is used. So for example using the Bluetooth 4.2, the raw data rate is set to 1 Mbps, however using the Bluetooth 5 and later, the raw data rate can vary, and there are different options here: either the 1 Mbps, which is the original BLE data rate, or the 2 Mbps when utilizing the higher speed feature of Bluetooth 5.</description>
+      </item>
+      
+      <item>
+        <title>GAP</title>
+        <link>/learn/ble/ble_gap/</link>
+        <pubDate>Sun, 12 Apr 2020 19:23:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble_gap/</guid>
+        <description>At a high level, there are two different modes that a BLE device can operate in, it could either be advertising mode where it sends out data for other devices to discover it, or it could be in connection mode or connected to another BLE device. The difference between the two is that in advertising mode the data is sent in one direction, only from the broadcaster, whereas in connection mode the data is being transferred between the two devices, so the data transfer is bi-directional.</description>
+      </item>
+      
+      <item>
+        <title>Advertisements</title>
+        <link>/learn/ble/ble_advertisements/</link>
+        <pubDate>Sun, 12 Apr 2020 19:22:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble_advertisements/</guid>
+        <description>Basically the advertisements are the packets that are sent out by a broadcaster, or a device that wants to be discovered and then possibly be connected to. These advertisement packets are sent out on the three primary advertising channels which are 37 38 and 39 and possibly only on a subset of them, and that repeats at a fixed interval and for a period of time. Advertisement packets have different types, they can be either connectable or non connectable, scannable or non scannable or scannable.</description>
+      </item>
+      
+      <item>
+        <title>Connections</title>
+        <link>/learn/ble/ble_connections/</link>
+        <pubDate>Sun, 12 Apr 2020 19:21:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble_connections/</guid>
+        <description>Connections are a way to establish persistent data communication that is synchronized, and allows data to be exchanged between two devices. We’ve talked about advertisements before and how there are one-way in terms of the direction of the data transfer, from the broadcaster or the peripheral to the devices that are scanning for these advertisement packets. Connections on the other hand are bi-directional data transfer, between the two devices.
+Before we get into the details of how connections work, let&amp;rsquo;s go over some important terminology.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

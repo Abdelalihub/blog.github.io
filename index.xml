@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nrf5SDK on ZDoc</title>
+    <link>/</link>
+    <description>Recent content in nrf5SDK on ZDoc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>May 2019</title>
+        <link>/updates/2019_may/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        
+        <guid>/updates/2019_may/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Basic Usage</title>
+        <link>/tutorials/gettingstarted/basicusage-copy-2/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/basicusage-copy-2/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Basic Usage</title>
+        <link>/tutorials/gettingstarted/basicusage-copy-3/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/basicusage-copy-3/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Basic Usage</title>
+        <link>/tutorials/gettingstarted/basicusage-copy-4/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/basicusage-copy-4/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Basic Usage</title>
+        <link>/tutorials/gettingstarted/basicusage-copy-5/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/basicusage-copy-5/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Basic Usage</title>
+        <link>/tutorials/gettingstarted/basicusage-copy/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/basicusage-copy/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Basic Usage</title>
+        <link>/tutorials/gettingstarted/basicusage/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/basicusage/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>April 2019</title>
+        <link>/updates/2019_april/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:48 +0900</pubDate>
+        
+        <guid>/updates/2019_april/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>/tutorials/gettingstarted/configuration-copy-2/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/configuration-copy-2/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>/tutorials/gettingstarted/configuration-copy-3/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/configuration-copy-3/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>/tutorials/gettingstarted/configuration-copy-4/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/configuration-copy-4/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>/tutorials/gettingstarted/configuration-copy-5/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/configuration-copy-5/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>/tutorials/gettingstarted/configuration-copy/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/configuration-copy/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>/tutorials/gettingstarted/configuration/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:56 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/configuration/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>March 2019</title>
+        <link>/updates/2019_march/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:42 +0900</pubDate>
+        
+        <guid>/updates/2019_march/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Installation</title>
+        <link>/tutorials/gettingstarted/installation-copy-2/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/installation-copy-2/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Installation</title>
+        <link>/tutorials/gettingstarted/installation-copy-3/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/installation-copy-3/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Installation</title>
+        <link>/tutorials/gettingstarted/installation-copy-4/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/installation-copy-4/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Installation</title>
+        <link>/tutorials/gettingstarted/installation-copy-5/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/installation-copy-5/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Installation</title>
+        <link>/tutorials/gettingstarted/installation-copy/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/installation-copy/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Installation</title>
+        <link>/tutorials/gettingstarted/installation/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:13 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/installation/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>February 2019</title>
+        <link>/updates/2019_february/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        
+        <guid>/updates/2019_february/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Quick Start</title>
+        <link>/tutorials/gettingstarted/quickstart-copy-2/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/quickstart-copy-2/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Quick Start</title>
+        <link>/tutorials/gettingstarted/quickstart-copy-3/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/quickstart-copy-3/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Quick Start</title>
+        <link>/tutorials/gettingstarted/quickstart-copy-4/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/quickstart-copy-4/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Quick Start</title>
+        <link>/tutorials/gettingstarted/quickstart-copy-5/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/quickstart-copy-5/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Quick Start</title>
+        <link>/tutorials/gettingstarted/quickstart-copy/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/quickstart-copy/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Quick Start</title>
+        <link>/tutorials/gettingstarted/quickstart/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
+        
+        <guid>/tutorials/gettingstarted/quickstart/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>January 2019</title>
+        <link>/updates/2019_january/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        
+        <guid>/updates/2019_january/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Test 1</title>
+        <link>/tutorials/depth1/test1/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>/tutorials/depth1/test1/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Test 2</title>
+        <link>/tutorials/depth1/depth2/test2/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>/tutorials/depth1/depth2/test2/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Test 3</title>
+        <link>/tutorials/depth1/depth2/depth3/test3/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>/tutorials/depth1/depth2/depth3/test3/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>ttttest</title>
+        <link>/tutorials/depth1/ttttest/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>/tutorials/depth1/ttttest/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>What is BLE ?</title>
+        <link>/learn/ble/what-is-ble/</link>
+        <pubDate>Sun, 12 Apr 2020 20:03:00 +0000</pubDate>
+        
+        <guid>/learn/ble/what-is-ble/</guid>
+        <description>BLE refers to Bluetooth Low Energy ( can also be refferd to as Bluetooth Smart or Bluetooth 4.0), it is a low-power wireless technology used for connecting devices with each other and the key term here is low-energy and what this means is that BLE is targeted more towards applications that need to consume less power and they need to run on batteries for longer periods of time (months or even years).</description>
+      </item>
+      
+      <item>
+        <title>BLE Applications</title>
+        <link>/learn/ble/ble-applications/</link>
+        <pubDate>Sun, 12 Apr 2020 20:02:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble-applications/</guid>
+        <description>Some of the most common ones include home automation applications: such as a smart door lock, smart appliance or in your lighting system. Another application would be in fitness devices such as wearables and trackers. One other interesting application is an indoor location technology where GPS may not be feasible, and last but not least medical devices and personal health devices. And now with the recent release of Bluetooth 5 and Bluetooth mesh, BLE has more feasible applications especially when it comes to home automation and industrial applications.</description>
+      </item>
+      
+      <item>
+        <title>BLE range</title>
+        <link>/learn/ble/ble-range/</link>
+        <pubDate>Sun, 12 Apr 2020 20:01:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble-range/</guid>
+        <description>The range typically can go up to 50 meters (150 feet), that&amp;rsquo;s line of sight. whereas when you have obstacles and walls in between the devices, the range can go down significantly, probably to several meters or even several feets.
+However when utilizing the long range feature of the Bluetooth 5, the range can go up pretty significantly even up to 800 meters line of sight. The most common factors that can limit the range are:</description>
+      </item>
+      
+      <item>
+        <title>BLE Speed</title>
+        <link>/learn/ble/ble-speed/</link>
+        <pubDate>Sun, 12 Apr 2020 20:00:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble-speed/</guid>
+        <description>In terms of Speed, there are two important concepts to understand, there’s one called the raw data rate and the other one is the application data rate. The raw data rate is simply the rate at which the radio transmits the data over the air, and it varies depending on the version of the Bluetooth that is used. So for example using the Bluetooth 4.2, the raw data rate is set to 1 Mbps, however using the Bluetooth 5 and later, the raw data rate can vary, and there are different options here: either the 1 Mbps, which is the original BLE data rate, or the 2 Mbps when utilizing the higher speed feature of Bluetooth 5.</description>
+      </item>
+      
+      <item>
+        <title>GAP</title>
+        <link>/learn/ble/ble_gap/</link>
+        <pubDate>Sun, 12 Apr 2020 19:23:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble_gap/</guid>
+        <description>At a high level, there are two different modes that a BLE device can operate in, it could either be advertising mode where it sends out data for other devices to discover it, or it could be in connection mode or connected to another BLE device. The difference between the two is that in advertising mode the data is sent in one direction, only from the broadcaster, whereas in connection mode the data is being transferred between the two devices, so the data transfer is bi-directional.</description>
+      </item>
+      
+      <item>
+        <title>Advertisements</title>
+        <link>/learn/ble/ble_advertisements/</link>
+        <pubDate>Sun, 12 Apr 2020 19:22:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble_advertisements/</guid>
+        <description>Basically the advertisements are the packets that are sent out by a broadcaster, or a device that wants to be discovered and then possibly be connected to. These advertisement packets are sent out on the three primary advertising channels which are 37 38 and 39 and possibly only on a subset of them, and that repeats at a fixed interval and for a period of time. Advertisement packets have different types, they can be either connectable or non connectable, scannable or non scannable or scannable.</description>
+      </item>
+      
+      <item>
+        <title>Connections</title>
+        <link>/learn/ble/ble_connections/</link>
+        <pubDate>Sun, 12 Apr 2020 19:21:00 +0000</pubDate>
+        
+        <guid>/learn/ble/ble_connections/</guid>
+        <description>Connections are a way to establish persistent data communication that is synchronized, and allows data to be exchanged between two devices. We’ve talked about advertisements before and how there are one-way in terms of the direction of the data transfer, from the broadcaster or the peripheral to the devices that are scanning for these advertisement packets. Connections on the other hand are bi-directional data transfer, between the two devices.
+Before we get into the details of how connections work, let&amp;rsquo;s go over some important terminology.</description>
+      </item>
+      
+      <item>
+        <title>Related content</title>
+        <link>/tutorials/relatedcontent/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:09 +0900</pubDate>
+        
+        <guid>/tutorials/relatedcontent/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Page Resources</title>
+        <link>/tutorials/pageresources/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:06 +0900</pubDate>
+        
+        <guid>/tutorials/pageresources/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Page Bundles</title>
+        <link>/tutorials/pagebundles/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:59 +0900</pubDate>
+        
+        <guid>/tutorials/pagebundles/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Content Formats</title>
+        <link>/tutorials/contentfortmats/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:51 +0900</pubDate>
+        
+        <guid>/tutorials/contentfortmats/</guid>
+        <description>Three hundred and forty-eight Three hundred and forty-eight years, six months, and nineteen days agThree hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight Three hundred and forty-eight The sixth of January, 1482, is not, however, a day of which history has</description>
+      </item>
+      
+      <item>
+        <title>hex</title>
+        <link>/tutorials/hex/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:48 +0900</pubDate>
+        
+        <guid>/tutorials/hex/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Image Processing</title>
+        <link>/tutorials/imageprocessing/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:48 +0900</pubDate>
+        
+        <guid>/tutorials/imageprocessing/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Shortcodes</title>
+        <link>/tutorials/contentmanagement/shortcodes/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:19 +0900</pubDate>
+        
+        <guid>/tutorials/contentmanagement/shortcodes/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Frontmatter</title>
+        <link>/tutorials/contentmanagement/frontmatter/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:14 +0900</pubDate>
+        
+        <guid>/tutorials/contentmanagement/frontmatter/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Markdown Syntax Guide</title>
+        <link>/blog/markdown-syntax/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>/blog/markdown-syntax/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Section</title>
+        <link>/tutorials/contentmanagement/sections/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>/tutorials/contentmanagement/sections/</guid>
+        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Rich Content</title>
+        <link>/blog/rich-content/</link>
+        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>/blog/rich-content/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Placeholder Text</title>
+        <link>/blog/placeholder-text/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>/blog/placeholder-text/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Emoji Support</title>
+        <link>/blog/emoji-support/</link>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>/blog/emoji-support/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>
