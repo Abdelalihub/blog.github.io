@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tutorials – nRF52 dev</title>
+    <title>Run your first app – nRF52 dev</title>
     
 
 
@@ -968,22 +968,21 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="/tutorials/index.xml">
-<meta name="description" content="nRF52 tutorials" />
+    <meta name="description" content="Run your first app (blinky)." />
 <meta name="keywords" content="">
-<meta name="created" content="2020-01-11T14:09:21&#43;0900">
-<meta name="modified" content="2020-01-11T14:09:21&#43;0900">
+<meta name="created" content="2020-04-15T00:00:00&#43;0000">
+<meta name="modified" content="2020-04-15T00:00:00&#43;0000">
 
 
 <meta property="og:site_name" content="nRF52 dev">
-<meta property="og:title" content="Tutorials">
-<meta property="og:url" content="/tutorials/">
-<meta property="og:type" content="website">
+<meta property="og:title" content="Run your first app">
+<meta property="og:url" content="/tutorials/run-your-first-app/">
+<meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="/tutorials/">
+<link rel="canonical" href="/tutorials/run-your-first-app/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1219,7 +1218,7 @@ if (!doNotTrack) {
     <div class="menu">
   <h6 class="menu__label">
     
-      Tutorials
+      Run your first app
     
   </h6>
   <ul>
@@ -1264,9 +1263,9 @@ if (!doNotTrack) {
   
   
   
-  <li class="">
+  <li class="active">
     <a href="/tutorials/run-your-first-app/"
-      class="menu__title ">Run your first app</a>
+      class="menu__title active">Run your first app</a>
   </li>
   
 
@@ -1606,11 +1605,11 @@ if (!doNotTrack) {
 </script>
 
         
-  <div class="top">
+ <div class="top">
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">Tutorials</h2>
+        <h2 class="title">Run your first app</h2>
       </div>
     </div>
   </div>
@@ -1625,6 +1624,8 @@ if (!doNotTrack) {
   
   
   
+  
+  
   <li >
     
       <a href="/" class="capitalize">nRF52dev</a>
@@ -1632,9 +1633,16 @@ if (!doNotTrack) {
   </li>
   
   
+  <li >
+    
+      <a href="/tutorials/" class="capitalize">Tutorials</a>
+    
+  </li>
+  
+  
   <li  class="is-active" >
     
-      <span>Tutorials</span>
+      <span>Run your first app</span>
     
   </li>
   
@@ -1650,16 +1658,15 @@ if (!doNotTrack) {
 </div>
 
         
-  
   <div class="mid">
   <div class="divider">
-
-    <nav id="list-menu" class="l" data-dir="ltr">
+    
+    <nav id="single-menu" class="l" data-dir="ltr">
       
         <div class="menu">
   <h6 class="menu__label">
     
-      Tutorials
+      Run your first app
     
   </h6>
   <ul>
@@ -1704,9 +1711,9 @@ if (!doNotTrack) {
   
   
   
-  <li class="">
+  <li class="active">
     <a href="/tutorials/run-your-first-app/"
-      class="menu__title ">Run your first app</a>
+      class="menu__title active">Run your first app</a>
   </li>
   
 
@@ -1738,28 +1745,6 @@ if (!doNotTrack) {
 </div>
 
 
-
-<script>
-  var menuTitle = document.querySelectorAll('.menu__title');
-  var modal = document.getElementById("myModal");
-  var drawer = document.getElementById('myDrawer');
-
-  var closeDrawer = function () {
-    setTimeout(function () {
-      modal.style.opacity = 0;
-      drawer.style.left = '-100%';
-      modal.style.left = '-100%';
-    }, 250);
-  }
-
-  menuTitle ? 
-  menuTitle.forEach(function(elem) {
-    elem.onclick = function() {
-      closeDrawer();
-      localStorage.setItem('isDrawerOpen', 'false');
-    }
-  }) : null;
-</script>
       
     </nav>
 
@@ -1781,89 +1766,413 @@ if (!doNotTrack) {
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <p>After getting your <strong>dev-kit</strong> and installing all <strong>the necessary software tools</strong>, this should be the time to run/test some example codes from the SDK. We&rsquo;ll be using the peripheral/blinky example.</p>
+<h3 id="open-the-blinky-project-with-ses-ide">Open the blinky project with SES IDE:</h3>
+<p>For me, i have extracted the SDK <strong>.Zip</strong> file in <code>C:\nRF5-SDK\nRF5-SDK16</code>, so the blinky example folder location will be in <code>C:\nRF5-SDK\nRF5-SDK16\examples\peripheral\blinky</code>.<br />
+<p class="md__image">
+  <img src="/tutorials/images/blinky-code-location.png" alt="blinky code folder location"  />
+</p></p>
+<p>In this folder you will have 2 options, either directly upload the <strong>precompiled hex file (hex folder)</strong> (you will need nrf connect desktop app for that), or <strong>open the source code files (pca&hellip; folders)</strong> so you can update and upload your code easilly with <strong>Segger Embedded Studio (SES)</strong>, and this is what we&rsquo;ll be doing.<br />
+Which (<strong>pca &hellip; folder</strong>) to open depends on your <strong>dev-kit</strong>:</p>
+<ul>
+<li>If you&rsquo;re using the <strong>nRF52 DK</strong>, it should be <strong>PCA10040</strong>.</li>
+<li>If you&rsquo;re using the <strong>nRF52840 DK</strong>, it should be <strong>PCA10056</strong>.</li>
+<li>If you&rsquo;re using the <strong>nRF52833 DK</strong>, it should be <strong>PCA10100</strong>.[ Most of the examples does not support this dev-kit, but as the on-board SOC (nRF52833) is very similar to the nRF52840 SOC, you can use the PCA10056 folder also for this dev-kit. But, you still need to :<br />
+1 Change the board config from to <strong>PCA10100</strong>.<br />
+2 Change the board definition in preprocessor definitions.<br />
+3 Adjust the FLASH and RAM sizes. ]</li>
+</ul>
+<p><p class="md__image">
+  <img src="/tutorials/images/nRF52840dk.png" alt="Jlink-ob board name"  />
+</p></p>
+<p>For me, I have the <strong>nRF52840 DK</strong>, so i&rsquo;ll open the <strong>PCA10056</strong> folder, then <strong>blank</strong>, then the <strong>IDE (SES)</strong>, then open the <strong>EMPROJECT File</strong>. <strong>SES IDE</strong> should then launch and load the blinky project source files.<br />
+<p class="md__image">
+  <img src="/tutorials/images/blinky-code-ses-files.PNG" alt="blinky code ses files"  />
+</p></p>
+<h3 id="plug-your-board">Plug your board:</h3>
+<p>To connect your Dev-kit to your PC, use the Left USB connector <strong>(J2)</strong> . And please make sure you use a <strong>good</strong> USB cable (it is the most common source of issues like (board not detected, issues on uploading&hellip;), unfortunaltely the dev-kit doesn&rsquo;t come with one.<br />
+Here is the <strong>nRF52840 DK</strong> with two USB connectors. the other usb connector (down to the right) <strong>(J3)</strong> is hard wired to the <strong>USB pins</strong> of the <strong>SOC</strong>, and serves as the USB link for applications such as a USB keyboard/mouse&hellip; so this is the USB connector that you&rsquo;ll be using to test/run these type of applications.</p>
+<p><p class="md__image">
+  <img src="/tutorials/images/nrf52840dk-plugged-to-pc.png" alt="plug you nrf52840dk to your pc"  />
+</p></p>
+<p>The Left USB connector <strong>(J2)</strong> is wired directly to the <strong>Jlink-OB IC</strong> (Interface MCU), that in its turn is wired to both the on-board SOC and to the <strong>debug out</strong> ports.<br />
+The <strong>Jlink-OB IC</strong> automatically selects the SOC that will program. It will first check the <strong>debug out</strong> ports, if it didn&rsquo;t detect any SOC on these ports, it will then switch to the on board SOC.</p>
+<p>If you&rsquo;re using the <strong>nRF52840 DK</strong> or the <strong>nRF52833 DK</strong>, make sure these switches are set to default states:</p>
+<ol>
+<li><strong>SW8</strong>: the <strong>power switch</strong>, is set to <strong>ON</strong>: you can use this switch to turn <strong>ON/OFF</strong> your dev-kit, without unpluging the USB cable. very handy in case you&rsquo;re trying to add/update some wiring connections.</li>
+<li><strong>SW9</strong>: the <strong>nRF power source</strong>, is set to <strong>VDD</strong>: this is where to select the power source of the on board SOC. and as we use the upper usb connector, the SOC will get powered via VDD.</li>
+<li><strong>SW6</strong>: make sure it is set to <strong>default</strong>: this switch desconnects the SOC from the <strong>Jlink-OB IC</strong> if it is set to <strong>nRF ONLY</strong>.</li>
+</ol>
+<p><p class="md__image">
+  <img src="/tutorials/images/nrf52840dk-switches.png" alt="set the nRF52840DK switches to default states"  />
+</p></p>
+<p>If you are using the <strong>nRF52 DK</strong> You will only have the power switch, so just turn that <strong>ON</strong> and you&rsquo;ll be all set.</p>
+<p><p class="md__image">
+  <img src="/tutorials/images/nrf52dk-5v-pin.png" alt="nrf52dk 5v pin"  />
+</p></p>
+<p><strong>NB</strong>: You will notice a <strong>5V</strong> pin available on most of the dev-kits (if not all) even if it is out of the acceptable volatge range for the on-board SOC. For these dev-kits, make sure you don&rsquo;t connect that pin to any of the SOC pins. You can still use it for powering certain components such as a small servo. Just make sure your <strong>SOC pins voltage</strong> remain in the acceptable range.</p>
+<p><p class="md__image">
+  <img src="/tutorials/images/nrf52dk-nrf52832-spec.PNG" alt="nrf52dk (nrf52832) product specifications"  />
+</p></p>
+<p>You can check your SOC specs, in <a href="https://www.nordicsemi.com/Products/"  target="_blank" style="text-decoration: none;">
+    <strong>the product specification page</strong></a>.</p>
+<p>For the lastest (as of 18/05/2020) product specification versions:</p>
+<ul>
+<li><a href="https://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.3.pdf"  target="_blank" style="text-decoration: none;">
+    <strong>nRF52810_PS_v1.3</strong></a>.</li>
+<li><a href="https://infocenter.nordicsemi.com/pdf/nRF52811_PS_v1.0.pdf"  target="_blank" style="text-decoration: none;">
+    <strong>nRF52811_PS_v1.0</strong></a>.</li>
+<li><a href="https://infocenter.nordicsemi.com/pdf/nRF52820_OPS_v0.7.1.pdf"  target="_blank" style="text-decoration: none;">
+    <strong>nRF52820_OPS_v0.7.1</strong></a>.</li>
+<li><a href="https://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf"  target="_blank" style="text-decoration: none;">
+    <strong>nRF52832_PS_v1.4</strong></a>.</li>
+<li><a href="https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.2.pdf"  target="_blank" style="text-decoration: none;">
+    <strong>nRF52833_PS_v1.2</strong></a>.</li>
+<li><a href="https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.1.pdf"  target="_blank" style="text-decoration: none;">
+    <strong>nRF52840_PS_v1.1</strong></a>.</li>
+</ul>
+<h3 id="build-and-run-the-blinky-app">Build and Run the blinky app:</h3>
+<p>If everything is good, when you plug your dev-kit your OS should detect it and a <strong>green LED</strong> close to the <strong>(Interface MCU)</strong> should light up. Now lets move into <strong>SES</strong>, where we have lunched our blinky example.<br />
+Your SES user interface should look something like this:<br />
+<p class="md__image">
+  <img src="/tutorials/images/ses-blinky-example-code.PNG" alt="ses blinky example code"  />
+</p></p>
+<p>If this is your first time launching the <strong>SES IDE</strong>, you will be Notified to install your <strong>Free commercial license</strong>. Follow the instructions provided to do that.</p>
+<p>The project&rsquo;s <strong>Folder/Files</strong> are on the left side. Go to the application folder, and open the <code>main.c</code> file (if it&rsquo;s not already opened).</p>
+<p>Go to the <strong>Build</strong> menu and select <strong>Build and Run</strong>. This should build your code and upload it directly to your dev-kit SOC&rsquo;s flash memory.</p>
+<p><p class="md__image">
+  <img src="/tutorials/images/ses-build-and-run.PNG" alt="ses build and run the blinky example code"  />
+</p></p>
+<p>If the blinky app was uploaded successfully, you will notice the <strong>on-board LEDS</strong> turns <strong>ON</strong> one after the other and turn back <strong>OFF</strong> one after the other at a fixed period of <strong>1 second</strong>.</p>
+<p><p class="md__image">
+  <img src="/tutorials/images/nrf52840dk-blinky-example-test.png" alt="blinky example code test"  />
+</p></p>
+<h3 id="update-the-blinky-app">Update the blinky app:</h3>
+<p>Now lets play with this example code and change the period of the blinking. let&rsquo;s make it small a <strong>0.5 second</strong>, so the leds blinks faster.<br />
+In the <code>main()</code> function:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="cm">/* Configure board. */</span>
+    <span class="n">bsp_board_init</span><span class="p">(</span><span class="n">BSP_INIT_LEDS</span><span class="p">);</span>
+
+    <span class="cm">/* Toggle LEDs. */</span>
+    <span class="k">while</span> <span class="p">(</span><span class="nb">true</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">LEDS_NUMBER</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">bsp_board_led_invert</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+            <span class="n">nrf_delay_ms</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>You&rsquo;ll notice that this function <code>nrf_delay_ms()</code>, is the responsible for the delay between the <strong>ON</strong> and <strong>OFF</strong> of the leds (the blinking). its value is set to 1000 ms = 1 second. will change it to 0.5 second = 500 ms.<br />
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="n">nrf_delay_ms</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span> <span class="o">//</span> <span class="n">changed</span> <span class="n">the</span> <span class="mi">1000</span>  <span class="n">to</span>  <span class="mi">500</span></code></pre></td></tr></table>
+</div>
+</div></p>
+<p>Now, save your <code>main.c</code> file with a <strong>Left_Control+S</strong> (if you are on windows), or just open the <strong>File</strong> menu and hit <strong>Save main.c</strong> or <strong>Save All</strong> (this will save any modified file).<br />
+Next, go to the <strong>Build</strong> menu, and hit <strong>Build And Run</strong>.<br />
+Now have a look at the <strong>LEDS</strong>, the blinking period should be updated and the <strong>ON/OFF</strong> sequence should be faster.</p>
+
   </article>
 </div>
       
-        
-<div class="list-section">
+<div class="grow"></div>
+<nav class="pagination-single">
   
-    <div class="list-section__item">
-      <a href="/tutorials/getting-started/" class="list-section__item--link">
-        Get started
+    
+      <a href="/tutorials/getting-started/" title="Get started" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__right-title">Get started</div>
       </a>
-      <div class="list-section__item--desc">
-        Getting started with nRF52 Development.
-      </div>
-    </div>
-  
-    <div class="list-section__item">
-      <a href="/tutorials/run-your-first-app/" class="list-section__item--link">
-        Run your first app
+    
+    <div class="grow"></div>
+    
+      <a href="/tutorials/buttons-and-leds/" title="Buttons and leds" class="pagination-single__right">
+        <div class="pagination-single__left-title">Buttons and leds</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
       </a>
-      <div class="list-section__item--desc">
-        Run your first app (blinky).
-      </div>
-    </div>
+    
   
-    <div class="list-section__item">
-      <a href="/tutorials/buttons-and-leds/" class="list-section__item--link">
-        Buttons and leds
-      </a>
-      <div class="list-section__item--desc">
-        How to read the buttons states and control the leds.
-      </div>
-    </div>
-  
-  </div>
-      
-      
+</nav>
 
+
+      
     </article>
-
+    
     <section id="list-side" class="r" data-dir="ltr">
+      
+        <div class="toc">
+  <h6 class="toc__label">What&#39;s on this Page</h6>
+  <div class="toc__body">
+    <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#open-the-blinky-project-with-ses-ide">Open the blinky project with SES IDE:</a></li>
+        <li><a href="#plug-your-board">Plug your board:</a></li>
+        <li><a href="#build-and-run-the-blinky-app">Build and Run the blinky app:</a></li>
+        <li><a href="#update-the-blinky-app">Update the blinky app:</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+  </div>
+</div>
+      
     </section>
 
   </div>
 </div>
 
+
+
+
+
+<script defer src="/js/helper/getParents.min.js"></script>
+
+<script defer src="/js/helper/closest.min.js"></script>
+
+<script defer src="/js/helper/prev.min.js"></script>
+
+<script defer src="/js/helper/prop.min.js"></script>
+
+<script defer src="/js/helper/fadeinout.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    'use strict';
+    
+    
+    var tables = document.querySelectorAll('.single__contents > table');
+    for (let i = 0; i < tables.length; i++) {
+      var table = tables[i];
+      var wrapper = document.createElement('div');
+      wrapper.className = 'table-wrapper';
+      table.parentElement.replaceChild(wrapper, table);
+      wrapper.appendChild(table);
+    }
+    
+
+    
+    
+    
+    var lib = JSON.parse("null");
+
+    if (lib && lib.includes('mermaid')) {
+      var themeVariant = localStorage.getItem('theme') || 'light';
+
+      if (themeVariant === "dark") {
+        mermaid.initialize({ theme: 'dark' });
+      } else {
+        mermaid.initialize({ theme: 'default' });
+      }
+      
+      var mermaids = [];
+      [].push.apply(mermaids, document.getElementsByClassName('language-mermaid'));
+      mermaids.forEach(function(elem) {
+        var elemParentNode = elem.parentNode;
+
+        if (elemParentNode !== document.body) {
+          elemParentNode.parentNode.insertBefore(elem, elemParentNode);
+          elemParentNode.parentNode.removeChild(elemParentNode);
+        }
+
+        var newElemWrapper = document.createElement('div');
+        newElemWrapper.classList.add('mermaid');
+        newElemWrapper.innerHTML = elem.innerHTML;
+        elem.replaceWith(newElemWrapper);
+      });
+    }
+    
+    
+
+    
+    if (lib && lib.includes('katex')) {
+      var mathElements = document.getElementsByClassName('math');
+      var options = {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false }
+        ],
+      };
+
+      renderMathInElement(document.querySelector('.single__contents'), options);
+    }
+    
+
+
+    
+    if (lib && lib.includes('flowchartjs')) {
+      
+      var options = JSON.parse("{\"arrow-end\":\"block\",\"element-color\":\"black\",\"fill\":\"white\",\"flowstate\":{\"approved\":{\"fill\":\"#58C4A3\",\"font-size\":12,\"no-text\":\"n/a\",\"yes-text\":\"APPROVED\"},\"current\":{\"fill\":\"yellow\",\"font-color\":\"red\",\"font-weight\":\"bold\"},\"future\":{\"fill\":\"#FFFF99\"},\"invalid\":{\"fill\":\"#444444\"},\"past\":{\"fill\":\"#CCCCCC\",\"font-size\":12},\"rejected\":{\"fill\":\"#C45879\",\"font-size\":12,\"no-text\":\"REJECTED\",\"yes-text\":\"n/a\"},\"request\":{\"fill\":\"blue\"}},\"font-color\":\"black\",\"font-size\":14,\"line-color\":\"black\",\"line-length\":50,\"line-width\":3,\"no-text\":\"no\",\"scale\":1,\"symbols\":{\"end\":{\"class\":\"end-element\"},\"start\":{\"element-color\":\"green\",\"fill\":\"yellow\",\"font-color\":\"red\"}},\"text-margin\":10,\"x\":0,\"y\":0,\"yes-text\":\"yes\"}");
+      var jsonContent = null;
+
+      var flowchartPrefix = "language-flowchart";
+      var index = 0;
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + flowchartPrefix + "]"), function(x){
+          x.style.display = 'none'
+          x.parentNode.style.backgroundColor = "transparent"
+          jsonContent = x.innerText;
+
+          var node0 = document.createElement('div');
+          node0.id = 'flowchart' + index;
+          x.parentNode.insertBefore(node0, x);
+
+          var diagram = flowchart.parse(jsonContent);
+          diagram.drawSVG("flowchart"+index, options);
+
+          index +=1;
+      });      
+    }
+    
+
+
+    
+    if (lib && lib.includes('chart')) {
+      var borderColor = "#666";
+      var bgColor = "#ddd";
+      var borderWidth = 2;
+
+      Chart.defaults.global.elements.rectangle.borderWidth = borderWidth;
+      Chart.defaults.global.elements.rectangle.borderColor = borderColor;
+      Chart.defaults.global.elements.rectangle.backgroundColor = bgColor;
+
+      Chart.defaults.global.elements.line.borderWidth = borderWidth;
+      Chart.defaults.global.elements.line.borderColor = borderColor;
+      Chart.defaults.global.elements.line.backgroundColor = bgColor;
+
+      Chart.defaults.global.elements.point.borderWidth = borderWidth;
+      Chart.defaults.global.elements.point.borderColor = borderColor;
+      Chart.defaults.global.elements.point.backgroundColor = bgColor;
+
+      var chartPrefix = "language-chart";
+      var index = 0;
+      var jsonContent = null;
+
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + chartPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        jsonContent = x.innerText;
+        var node0 = document.createElement('canvas');
+        var source = null;
+        node0.height = 200;
+        node0.style.height = 200;
+        node0.id = 'myChart' + index;
+        source = JSON.parse(jsonContent);
+        x.parentNode.insertBefore(node0, x);
+        var ctx = document.getElementById('myChart' + index).getContext('2d');
+        var myChart = new Chart(ctx, source);
+        index += 1;
+      });            
+    }
+    
+
+
+    
+    if (lib && lib.includes('viz')) {
+      var vizPrefix = "language-viz-";
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + vizPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        var engine;
+        x.getAttribute("class").split(" ").forEach(function (cls) {
+          if (cls.startsWith(vizPrefix)) {
+            engine = cls.substr(vizPrefix.length);
+          }
+        });
+        var viz = new Viz();
+        viz.renderSVGElement(x.innerText, { engine: engine })
+          .then(function (element) {
+            element.style.width = "100%";
+            x.parentNode.insertBefore(element, x);
+          })
+      });
+    }
+    
+    
+  });
+</script>
 <script>
   var listSide = document.getElementById('list-side');
   var listMain = document.getElementById('list-main');
-  var listMenu = document.getElementById('list-menu');
-  
+  var singleMenu = document.getElementById('single-menu');
+
   enquire.register("screen and (max-width:1280px)", {
     match: function () {
       listSide.className = 'r';
       listMain.className = 'm';
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
     },
     unmatch: function () {
       listSide.className = 'r';
       listMain.className = 'm';
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
     },
   }).register("screen and (max-width:960px)", {
     match: function () {
       listSide.className = 'hide';
       listMain.className = 'mr';
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
     },
     unmatch: function () {
       listSide.className = 'r';
       listMain.className = 'm';
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
     },
   }).register("screen and (max-width:600px)", {
     match: function () {
       listSide.className = 'hide';
       listMain.className = 'lmr';
-      listMenu.className = 'hide';
+      singleMenu.className = 'hide';
     },
     unmatch: function () {
       listSide.className = 'hide';
       listMain.className = 'mr';
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
+      
     },
   });
 </script>

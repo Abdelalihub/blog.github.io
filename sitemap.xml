@@ -3,278 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/updates/2019_may/</loc>
-    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+    <loc>/tutorials/getting-started/</loc>
+    <lastmod>2020-04-15T01:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tutorials/gettingstarted/basicusage-copy-2/</loc>
-    <lastmod>2020-01-28T00:34:51+09:00</lastmod>
+    <loc>/tutorials/run-your-first-app/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tutorials/gettingstarted/basicusage-copy-3/</loc>
-    <lastmod>2020-01-28T00:34:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/basicusage-copy-4/</loc>
-    <lastmod>2020-01-28T00:34:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/basicusage-copy-5/</loc>
-    <lastmod>2020-01-28T00:34:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/basicusage-copy/</loc>
-    <lastmod>2020-01-28T00:34:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/basicusage/</loc>
-    <lastmod>2020-01-28T00:34:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/updates/2019_april/</loc>
-    <lastmod>2020-01-28T00:10:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/configuration-copy-2/</loc>
-    <lastmod>2020-01-28T00:34:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/configuration-copy-3/</loc>
-    <lastmod>2020-01-28T00:34:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/configuration-copy-4/</loc>
-    <lastmod>2020-01-28T00:34:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/configuration-copy-5/</loc>
-    <lastmod>2020-01-28T00:34:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/configuration-copy/</loc>
-    <lastmod>2020-01-28T00:34:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/configuration/</loc>
-    <lastmod>2020-01-28T00:34:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/updates/2019_march/</loc>
-    <lastmod>2020-01-28T00:10:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/installation-copy-2/</loc>
-    <lastmod>2020-01-28T00:34:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/installation-copy-3/</loc>
-    <lastmod>2020-01-28T00:34:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/installation-copy-4/</loc>
-    <lastmod>2020-01-28T00:34:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/installation-copy-5/</loc>
-    <lastmod>2020-01-28T00:34:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/installation-copy/</loc>
-    <lastmod>2020-01-28T00:34:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/installation/</loc>
-    <lastmod>2020-01-28T00:34:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/updates/2019_february/</loc>
-    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/quickstart-copy-2/</loc>
-    <lastmod>2020-01-28T00:34:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/quickstart-copy-3/</loc>
-    <lastmod>2020-01-28T00:34:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/quickstart-copy-4/</loc>
-    <lastmod>2020-01-28T00:34:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/quickstart-copy-5/</loc>
-    <lastmod>2020-01-28T00:34:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/quickstart-copy/</loc>
-    <lastmod>2020-01-28T00:34:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/quickstart/</loc>
-    <lastmod>2020-01-28T00:34:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/updates/2019_january/</loc>
-    <lastmod>2020-01-28T00:10:09+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/depth1/</loc>
-    <lastmod>2020-02-28T10:08:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/depth1/depth2/</loc>
-    <lastmod>2020-02-28T10:08:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/depth1/depth2/depth3/</loc>
-    <lastmod>2020-02-28T10:08:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/depth1/test1/</loc>
-    <lastmod>2020-01-30T00:38:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/depth1/depth2/test2/</loc>
-    <lastmod>2020-01-30T00:38:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/depth1/depth2/depth3/test3/</loc>
-    <lastmod>2020-01-30T00:38:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/gettingstarted/</loc>
-    <lastmod>2020-01-28T00:34:39+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/learn/ble/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/depth1/ttttest/</loc>
-    <lastmod>2020-01-30T00:38:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/contentmanagement/</loc>
-    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/learn/ble/what-is-ble/</loc>
-    <lastmod>2020-04-12T20:03:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/learn/ble/ble-applications/</loc>
-    <lastmod>2020-04-12T20:02:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/learn/ble/ble-range/</loc>
-    <lastmod>2020-04-12T20:01:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/learn/ble/ble-speed/</loc>
-    <lastmod>2020-04-12T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/learn/ble/ble_gap/</loc>
-    <lastmod>2020-04-12T19:23:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/learn/ble/ble_advertisements/</loc>
-    <lastmod>2020-04-12T19:22:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/learn/ble/ble_connections/</loc>
-    <lastmod>2020-04-12T19:21:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/relatedcontent/</loc>
-    <lastmod>2020-01-28T00:39:09+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/pageresources/</loc>
-    <lastmod>2020-01-28T00:39:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/pagebundles/</loc>
-    <lastmod>2020-01-28T00:38:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/contentfortmats/</loc>
-    <lastmod>2020-01-28T00:38:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/hex/</loc>
-    <lastmod>2020-01-28T00:38:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/imageprocessing/</loc>
-    <lastmod>2020-01-28T00:38:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/contentmanagement/shortcodes/</loc>
-    <lastmod>2020-01-28T00:36:19+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/contentmanagement/frontmatter/</loc>
-    <lastmod>2020-01-28T00:36:14+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/updates/</loc>
-    <lastmod>2020-01-28T00:08:29+09:00</lastmod>
+    <loc>/tutorials/buttons-and-leds/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -283,7 +23,12 @@
   </url>
   
   <url>
-    <loc>/learn/</loc>
+    <loc>/examples/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
@@ -294,72 +39,6 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tutorials/contentmanagement/sections/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
